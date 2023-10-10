@@ -1,0 +1,9 @@
+node_modules
+
+!node_modules/cjs
+!node_modules/cjs-pkg
+!node_modules/dual-mod
+!node_modules/esm
+!node_modules/esm-pkg
+
+.pnpm

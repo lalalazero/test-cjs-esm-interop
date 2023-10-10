@@ -1,0 +1,18 @@
+{
+  "name": "test-babel-5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "transform": "babel src -m common --out-dir lib",
+    "esm": "node src/index.js",
+    "cjs": "node lib/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "5.0.0"
+  }
+}

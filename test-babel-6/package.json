@@ -1,0 +1,20 @@
+{
+  "name": "test-babel-6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "transform": "./node_modules/babel-cli/bin/babel.js src --out-dir lib",
+    "esm": "node src/index.js",
+    "cjs": "node lib/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "6.0.0",
+    "babel-cli": "6",
+    "babel-preset-env": "^1.7.0"
+  }
+}
