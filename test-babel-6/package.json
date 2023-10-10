@@ -5,9 +5,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "transform": "./node_modules/babel-cli/bin/babel.js src --out-dir lib",
+    "transform": "./node_modules/babel-cli/bin/babel.js ../src --out-dir lib",
     "esm": "node src/index.js",
-    "cjs": "node lib/index.js"
+    "cjs": "node lib/index.js",
+    "hi": "echo hi babel-6"
   },
   "keywords": [],
   "author": "",

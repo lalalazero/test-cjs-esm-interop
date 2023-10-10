@@ -1,0 +1,19 @@
+{
+  "name": "test-cjs-esm-interop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "workspaces": [
+    "test-babel-5",
+    "test-babel-6",
+    "test-babel-7",
+    "test-babel-7-node"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

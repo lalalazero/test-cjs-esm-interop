@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "transform": "babel src -m common --out-dir lib",
+    "transform": "babel ../src -m common --out-dir lib",
     "esm": "node src/index.js",
     "cjs": "node lib/index.js"
   },
