@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "transform": "babel ../src -m common --out-dir lib",
-    "esm": "node src/index.js",
-    "cjs": "node lib/index.js"
+    "hi": "echo hi babel-5 && babel --version",
+    "test": "node lib/index.js"
   },
   "keywords": [],
   "author": "",

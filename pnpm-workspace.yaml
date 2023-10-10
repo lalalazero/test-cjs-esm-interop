@@ -1,0 +1,5 @@
+packages:
+  - test-babel-5
+  - test-babel-6
+  - test-babel-7
+  - test-babel-7-node

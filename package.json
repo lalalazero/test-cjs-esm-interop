@@ -11,7 +11,9 @@
     "test-babel-7-node"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "hi": "pnpm --filter \"test-babel-*\" hi",
+    "transform": "pnpm --filter \"test-babel-*\" transform",
+    "test": "pnpm --filter \"test-babel-*\" test"
   },
   "keywords": [],
   "author": "",

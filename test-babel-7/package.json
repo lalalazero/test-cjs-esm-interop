@@ -1,14 +1,13 @@
 {
-  "name": "test-babel",
+  "name": "test-babel-7",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "transform": "babel ../src -d lib",
-    "esm": "node src/index.js",
-    "cjs": "node lib/index.js",
-    "hi": "echo hi babel-7"
+    "hi": "echo hi babel-7 && babel --version",
+    "test": "node lib/index.js"
   },
   "keywords": [],
   "author": "",

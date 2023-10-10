@@ -5,10 +5,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "transform": "./node_modules/babel-cli/bin/babel.js ../src --out-dir lib",
-    "esm": "node src/index.js",
-    "cjs": "node lib/index.js",
-    "hi": "echo hi babel-6"
+    "transform": "./node_modules/babel-cli/bin/babel.js src --out-dir lib",
+    "hi": "echo hi babel-6  && ./node_modules/babel-cli/bin/babel.js --version",
+    "test": "node lib/index.js",
+    "postinstall": "cp -r ../src ."
   },
   "keywords": [],
   "author": "",
@@ -16,6 +16,7 @@
   "devDependencies": {
     "babel": "6.0.0",
     "babel-cli": "6",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "babel-preset-env": "^1.7.0"
   }
 }

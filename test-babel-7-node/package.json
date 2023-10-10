@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "transform": "babel ../src -d lib",
-    "hi": "echo hi babel-7-node"
+    "hi": "echo hi babel-7-node && babel --version",
+    "test": "node lib/index.js"
   },
   "keywords": [],
   "author": "",
